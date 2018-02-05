@@ -19,7 +19,9 @@ namespace GIT
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            string str = "aaaa";
+            textBox1.Text = str;
+            
         }
     }
 }
