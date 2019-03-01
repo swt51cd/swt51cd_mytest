@@ -51,3 +51,14 @@ D:\本地练习库\2013\ListoString\obj\Debug\ListoString.csproj.CoreCompileInpu
 D:\本地练习库\2013\ListoString\obj\Debug\ListoString.csproj.CopyComplete
 D:\本地练习库\2013\ListoString\obj\Debug\ListoString.exe
 D:\本地练习库\2013\ListoString\obj\Debug\ListoString.pdb
+D:\测试\swt51cd_mytest\ListoString\bin\Debug\ListoString.exe
+D:\测试\swt51cd_mytest\ListoString\bin\Debug\ListoString.pdb
+D:\测试\swt51cd_mytest\ListoString\bin\Debug\Newtonsoft.Json.dll
+D:\测试\swt51cd_mytest\ListoString\obj\Debug\ListoString.csprojAssemblyReference.cache
+D:\测试\swt51cd_mytest\ListoString\obj\Debug\ListoString.Form1.resources
+D:\测试\swt51cd_mytest\ListoString\obj\Debug\ListoString.Properties.Resources.resources
+D:\测试\swt51cd_mytest\ListoString\obj\Debug\ListoString.csproj.GenerateResource.cache
+D:\测试\swt51cd_mytest\ListoString\obj\Debug\ListoString.csproj.CoreCompileInputs.cache
+D:\测试\swt51cd_mytest\ListoString\obj\Debug\ListoString.csproj.CopyComplete
+D:\测试\swt51cd_mytest\ListoString\obj\Debug\ListoString.exe
+D:\测试\swt51cd_mytest\ListoString\obj\Debug\ListoString.pdb
