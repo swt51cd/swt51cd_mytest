@@ -1,0 +1,7 @@
+D:\本地练习库\2013\OO\obj\Debug\OO.csprojAssemblyReference.cache
+D:\本地练习库\2013\OO\obj\Debug\OO.csproj.CoreCompileInputs.cache
+D:\本地练习库\2013\OO\bin\Debug\OO.exe.config
+D:\本地练习库\2013\OO\bin\Debug\OO.exe
+D:\本地练习库\2013\OO\bin\Debug\OO.pdb
+D:\本地练习库\2013\OO\obj\Debug\OO.exe
+D:\本地练习库\2013\OO\obj\Debug\OO.pdb

@@ -1,0 +1,7 @@
+D:\本地练习库\2013\YieldTest\bin\Debug\YieldTest.exe.config
+D:\本地练习库\2013\YieldTest\bin\Debug\YieldTest.exe
+D:\本地练习库\2013\YieldTest\bin\Debug\YieldTest.pdb
+D:\本地练习库\2013\YieldTest\obj\Debug\YieldTest.csprojAssemblyReference.cache
+D:\本地练习库\2013\YieldTest\obj\Debug\YieldTest.csproj.CoreCompileInputs.cache
+D:\本地练习库\2013\YieldTest\obj\Debug\YieldTest.exe
+D:\本地练习库\2013\YieldTest\obj\Debug\YieldTest.pdb

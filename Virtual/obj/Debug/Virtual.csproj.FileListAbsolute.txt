@@ -1,0 +1,7 @@
+D:\本地练习库\2013\Virtual\bin\Debug\Virtual.exe.config
+D:\本地练习库\2013\Virtual\bin\Debug\Virtual.exe
+D:\本地练习库\2013\Virtual\bin\Debug\Virtual.pdb
+D:\本地练习库\2013\Virtual\obj\Debug\Virtual.csprojAssemblyReference.cache
+D:\本地练习库\2013\Virtual\obj\Debug\Virtual.csproj.CoreCompileInputs.cache
+D:\本地练习库\2013\Virtual\obj\Debug\Virtual.exe
+D:\本地练习库\2013\Virtual\obj\Debug\Virtual.pdb

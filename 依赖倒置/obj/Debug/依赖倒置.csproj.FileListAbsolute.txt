@@ -1,0 +1,7 @@
+D:\本地练习库\2013\依赖倒置\bin\Debug\依赖倒置.exe.config
+D:\本地练习库\2013\依赖倒置\bin\Debug\依赖倒置.exe
+D:\本地练习库\2013\依赖倒置\bin\Debug\依赖倒置.pdb
+D:\本地练习库\2013\依赖倒置\obj\Debug\依赖倒置.csprojAssemblyReference.cache
+D:\本地练习库\2013\依赖倒置\obj\Debug\依赖倒置.csproj.CoreCompileInputs.cache
+D:\本地练习库\2013\依赖倒置\obj\Debug\依赖倒置.exe
+D:\本地练习库\2013\依赖倒置\obj\Debug\依赖倒置.pdb
