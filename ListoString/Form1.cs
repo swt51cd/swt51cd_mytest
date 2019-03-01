@@ -23,7 +23,6 @@ namespace ListoString
             list.Add("a");
             list.Add("b");
             list.Add("c");
-
             string s = string.Join(",", list.ToArray());
             MessageBox.Show(s);
         }
