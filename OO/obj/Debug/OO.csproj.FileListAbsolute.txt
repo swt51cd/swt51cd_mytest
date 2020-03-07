@@ -5,3 +5,10 @@ D:\本地练习库\2013\OO\bin\Debug\OO.exe
 D:\本地练习库\2013\OO\bin\Debug\OO.pdb
 D:\本地练习库\2013\OO\obj\Debug\OO.exe
 D:\本地练习库\2013\OO\obj\Debug\OO.pdb
+D:\测试\swt51cd_mytest\OO\bin\Debug\OO.exe.config
+D:\测试\swt51cd_mytest\OO\bin\Debug\OO.exe
+D:\测试\swt51cd_mytest\OO\bin\Debug\OO.pdb
+D:\测试\swt51cd_mytest\OO\obj\Debug\OO.csprojAssemblyReference.cache
+D:\测试\swt51cd_mytest\OO\obj\Debug\OO.csproj.CoreCompileInputs.cache
+D:\测试\swt51cd_mytest\OO\obj\Debug\OO.exe
+D:\测试\swt51cd_mytest\OO\obj\Debug\OO.pdb

@@ -5,3 +5,10 @@ D:\本地练习库\2013\Virtual\obj\Debug\Virtual.csprojAssemblyReference.cache
 D:\本地练习库\2013\Virtual\obj\Debug\Virtual.csproj.CoreCompileInputs.cache
 D:\本地练习库\2013\Virtual\obj\Debug\Virtual.exe
 D:\本地练习库\2013\Virtual\obj\Debug\Virtual.pdb
+D:\测试\swt51cd_mytest\Virtual\bin\Debug\Virtual.exe.config
+D:\测试\swt51cd_mytest\Virtual\bin\Debug\Virtual.exe
+D:\测试\swt51cd_mytest\Virtual\bin\Debug\Virtual.pdb
+D:\测试\swt51cd_mytest\Virtual\obj\Debug\Virtual.csprojAssemblyReference.cache
+D:\测试\swt51cd_mytest\Virtual\obj\Debug\Virtual.csproj.CoreCompileInputs.cache
+D:\测试\swt51cd_mytest\Virtual\obj\Debug\Virtual.exe
+D:\测试\swt51cd_mytest\Virtual\obj\Debug\Virtual.pdb

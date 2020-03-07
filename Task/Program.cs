@@ -7,8 +7,8 @@ namespace Task
         static void Main(string[] args)
         {
             #region test
-            MyTest.test();
-            MyTest.log("main：调用test后");
+            //MyTest.test();
+            //MyTest.log("main：调用test后");
             //thread.sleep(timeout.infinite);
             #endregion
 
@@ -16,7 +16,7 @@ namespace Task
             //Test2.Test2_Main();
             #endregion
 
-            //Test3.Test3_Main();
+            Test3.Test3_Main();
             // Test4.ParentChildTask();
             Console.ReadLine();
         }

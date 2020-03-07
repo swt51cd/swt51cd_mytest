@@ -1,9 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -23,34 +21,42 @@ namespace ListoString
             list.Add("a");
             list.Add("b");
             list.Add("c");
-            string s = string.Join(",", list.ToArray());
-            MessageBox.Show(s);
+            //string s = string.Join(",", list.ToArray());
+            var sb = new StringBuilder();
+            string separator = String.Empty;
+            foreach (var value in list)
+            {
+                sb.Append(separator).Append(value);
+                separator = ",";
+            }
+
+            MessageBox.Show(sb.ToString());
+            //MessageBox.Show(list);
         }
 
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string[] s = { "张三", "李四", "王五" };
-            string myStr = string.Join("\r\n", s);
+            List<string> list = new List<string>();
+            list.Add("{ \"张三\", \"李四\", \"王五\" }");
+            list.Add("{ \"AAA\", \"BB\", \"CC\" }");
+            list.Add("{ \"1张三\", \"2李四\", \"3王五\" }");
+
+            //string[] s = { "张三", "李四", "王五" };
+            //string myStr = string.Join("\r\n", s);
+            string myStr = string.Join(",", list);
             MessageBox.Show(myStr);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string s = "1,2,3";
-            List<string> list = new List<string>(s.Split(','));
-            foreach (string t in list)
-            {
-                MessageBox.Show("*" + t + "*");
-            }
-            //string myTest = "cehs";
-            //string s = "1, 2, 3";
-            //List<string> list = new List<string>(s.Split(new string[] { ", " }, StringSplitOptions.RemoveEmptyEntries));
-            //foreach (string t in list)
-            //{
-            //    MessageBox.Show("*" + t + "*");
-            //}
+            //string s = "1,2,3";
+            string s = @"{ '三', '李四', '王五' },{ 'AAA', 'BB', 'CC' },{ '1张三', '2李四', '3王五' }";
+            var joined = string.Join(",", s);
 
+            MessageBox.Show(joined);
+            List<string> list = new List<string>(joined.Split(','));
+            list.ForEach(t => MessageBox.Show("*" + t + "*"));
         }
         /// <summary>
         /// 测试
@@ -127,72 +133,51 @@ namespace ListoString
 
         private void button8_Click(object sender, EventArgs e)
         {
-           
+            var str = "1,2";
+            var tt = "1";
+            var aa = tt.Split(',');
+
+            List<string> list = new List<string>(tt.Split(','));
+
+            MessageBox.Show(aa.Length.ToString());
+            var date = DateTime.Now;
+
+            //var dt1 = DateTime.Parse("2004-04-01").Year;
+            //var dt2 = DateTime.Parse("2004-05-01").Year;
+
+            //var year1 = dt1 < dt2 ? 0 : dt1 - dt2;
+            //var diff1 = dt1.Subtract(dt2);
+           // MessageBox.Show(year1.ToString());
+            ////循环枚举
+            //Dictionary<int, string> myDictionary = new Dictionary<int, string>();
+            //foreach (QueryProgressEnum progresStatu in Enum.GetValues(typeof(QueryProgressEnum)))
+            //{
+            //    string strName = Enum.GetName(typeof(QueryProgressEnum), progresStatu);//获取名称
+            //    int vaule = progresStatu;//获取值
+            //    var tt = (QueryProgressEnum)progresStatu;
+            //    tt.Description();
+            //    myDictionary.Add(vaule, strName);
+            //}
+        }
+        private void button9_Click(object sender, EventArgs e)
+        {
+            int a = 4780;
+            int b;
+            TimeSpan ts = new TimeSpan(0, 0, a);
+            var ccc= (int)ts.TotalHours + "小时" + ts.Minutes + "分钟" + ts.Seconds + "秒";
+            MessageBox.Show(ccc.ToString());
+
+            //var dt = DateTime.Now.ToString("yyMMddhhmmss");
+            //dt = "aa" + dt;
+            //MessageBox.Show(dt);
+
+
         }
 
-        ///// <summary>
-        ///// 客户端上传图片发至服务器指定文件夹
-        ///// 并获得保存至服务器数据库的相对路径
-        ///// </summary>
-        ///// <param name="file">客户端HtmlInputFile控件的对象</param>
-        ///// <returns>如果成功返回相对路径字符串否则为错误提示字符串</returns>
-        //public string updateImage(System.Web.UI.HtmlControls.HtmlInputFile file)//,string path
-        //{
-        //    string[] imgType = new string[] { "image/gif", "image/jpg", "image/png", "image/bmp" };
-
-        //    int i = 0;
-        //    bool blean = false;
-        //    string message = string.Empty;
-
-        //    //判断是否为Image类型文件
-        //    while (i < imgType.Length)
-        //    {
-        //        if (file.PostedFile.ContentType.Equals(imgType[i].ToString()))
-        //        {
-        //            blean = true;
-        //            break;
-        //        }
-        //        else if (i == (imgType.Length - 1))
-        //        {
-        //            break;
-        //        }
-        //        else
-        //        {
-        //            i++;
-        //        }
-        //    }
-
-        //    //对获得的路径进行分析处理 
-        //    switch (blean)
-        //    {
-        //        case true:
-        //            //服务器路径
-        //            string serverpath = System.Web.HttpContext.Current.Server.MapPath(".") + "//";
-        //            //上传和返回(保存到数据库中)的路径
-        //            string uppath = string.Empty, savepath = string.Empty;
-        //            //创建图片新的名称
-        //            string nameImg = DateTime.Now.ToString("yyyyMMddHHmmss");
-        //            //获得上传图片的路径
-        //            string strPath = file.Value;
-        //            //获得上传图片的类型(后缀名)
-        //            string type = strPath.Substring(strPath.LastIndexOf(".") + 1).ToLower();
-        //            //拼写数据库保存的相对路径字符串
-        //            savepath = "..\\" + System.Configuration.ConfigurationSettings.AppSettings["imgPath"].ToString();
-        //            savepath += nameImg + "." + type;
-        //            //拼写上传图片的路径
-        //            uppath = System.Web.HttpContext.Current.Server.MapPath("~/");
-        //            uppath += System.Configuration.ConfigurationSettings.AppSettings["imgPath"].ToString();
-        //            uppath += nameImg + "." + type;
-        //            //上传图片
-        //            file.PostedFile.SaveAs(uppath);
-        //            message = savepath;
-        //            break;
-        //        case false:
-        //            message = "您上传的为非图片请重新选择！";
-        //            break;
-        //        default: break;
-        //    }
-        //    return message;
-        //}
+        private void button10_Click(object sender, EventArgs e)
+        {
+            var a ="";
+            MessageBox.Show(a.ToString());
+        }
     }
 }

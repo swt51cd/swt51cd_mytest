@@ -5,3 +5,10 @@ D:\本地练习库\2013\YieldTest\obj\Debug\YieldTest.csprojAssemblyReference.ca
 D:\本地练习库\2013\YieldTest\obj\Debug\YieldTest.csproj.CoreCompileInputs.cache
 D:\本地练习库\2013\YieldTest\obj\Debug\YieldTest.exe
 D:\本地练习库\2013\YieldTest\obj\Debug\YieldTest.pdb
+D:\测试\swt51cd_mytest\YieldTest\bin\Debug\YieldTest.exe.config
+D:\测试\swt51cd_mytest\YieldTest\bin\Debug\YieldTest.exe
+D:\测试\swt51cd_mytest\YieldTest\bin\Debug\YieldTest.pdb
+D:\测试\swt51cd_mytest\YieldTest\obj\Debug\YieldTest.csprojAssemblyReference.cache
+D:\测试\swt51cd_mytest\YieldTest\obj\Debug\YieldTest.csproj.CoreCompileInputs.cache
+D:\测试\swt51cd_mytest\YieldTest\obj\Debug\YieldTest.exe
+D:\测试\swt51cd_mytest\YieldTest\obj\Debug\YieldTest.pdb

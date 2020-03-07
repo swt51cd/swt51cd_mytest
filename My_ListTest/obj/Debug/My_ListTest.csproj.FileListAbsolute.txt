@@ -25,3 +25,9 @@ D:\本地练习库\2013\My_ListTest\obj\Debug\My_ListTest.csprojAssemblyReferenc
 D:\本地练习库\2013\My_ListTest\obj\Debug\My_ListTest.csproj.CoreCompileInputs.cache
 D:\本地练习库\2013\My_ListTest\obj\Debug\My_ListTest.exe
 D:\本地练习库\2013\My_ListTest\obj\Debug\My_ListTest.pdb
+D:\测试\swt51cd_mytest\My_ListTest\bin\Debug\My_ListTest.exe
+D:\测试\swt51cd_mytest\My_ListTest\bin\Debug\My_ListTest.pdb
+D:\测试\swt51cd_mytest\My_ListTest\obj\Debug\My_ListTest.csprojAssemblyReference.cache
+D:\测试\swt51cd_mytest\My_ListTest\obj\Debug\My_ListTest.csproj.CoreCompileInputs.cache
+D:\测试\swt51cd_mytest\My_ListTest\obj\Debug\My_ListTest.exe
+D:\测试\swt51cd_mytest\My_ListTest\obj\Debug\My_ListTest.pdb

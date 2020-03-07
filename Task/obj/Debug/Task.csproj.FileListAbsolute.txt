@@ -5,3 +5,10 @@ D:\本地练习库\2013\Task\obj\Debug\Task.csprojAssemblyReference.cache
 D:\本地练习库\2013\Task\obj\Debug\Task.csproj.CoreCompileInputs.cache
 D:\本地练习库\2013\Task\obj\Debug\Task.exe
 D:\本地练习库\2013\Task\obj\Debug\Task.pdb
+D:\测试\swt51cd_mytest\Task\bin\Debug\Task.exe.config
+D:\测试\swt51cd_mytest\Task\bin\Debug\Task.exe
+D:\测试\swt51cd_mytest\Task\bin\Debug\Task.pdb
+D:\测试\swt51cd_mytest\Task\obj\Debug\Task.csprojAssemblyReference.cache
+D:\测试\swt51cd_mytest\Task\obj\Debug\Task.csproj.CoreCompileInputs.cache
+D:\测试\swt51cd_mytest\Task\obj\Debug\Task.exe
+D:\测试\swt51cd_mytest\Task\obj\Debug\Task.pdb
