@@ -178,6 +178,16 @@ namespace ListoString
         {
             var a ="";
             MessageBox.Show(a.ToString());
+            int? bt = null;
+            MessageBox.Show(bt.HasValue.ToString());
+            MessageBox.Show(bt.GetValueOrDefault().ToString());
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            int outInt;
+            bool boo = int.TryParse("123",out  outInt);
+            MessageBox.Show(outInt.ToString());
         }
     }
 }

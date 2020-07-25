@@ -16,7 +16,6 @@ namespace My_ListTest
 
             #region  泛型重载
             //Node<string, int> node = new Node<string, int>();
-
             //object x = node.add(2, "11");
             ////object x = node.add(2, 11);
             //Console.WriteLine("**********  " + x);
@@ -25,8 +24,11 @@ namespace My_ListTest
             #region 泛型类型判断
             //ListTest.MyTest(520);
             #endregion
+
+            #region List集合
             List集合.test();
             Console.ReadLine();
+            #endregion
         }
     }
 }

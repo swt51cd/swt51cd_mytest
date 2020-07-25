@@ -1,0 +1,14 @@
+﻿using System;
+
+
+namespace Linq
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            StudentLinq.Linqs();
+            Console.ReadLine();
+        }
+    }
+}

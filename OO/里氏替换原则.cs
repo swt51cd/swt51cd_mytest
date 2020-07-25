@@ -10,6 +10,10 @@ namespace OO
             p1.Say();     //只能访问父类东东
             Student s2 = (Student)p1;
             s2.SayStude();//访问范围扩大了
+
+            Student s222 = new SeniorStudent();
+            SeniorStudent s3 = (SeniorStudent)s222;
+            s3.SaySenior();
         }
     }
     class Person

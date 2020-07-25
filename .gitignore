@@ -1,0 +1,8 @@
+*.exe
+*.pdb
+/ListoString/obj/Debug
+/Linq/bin
+/Linq/obj
+/ListoString/bin
+/ListoString/obj
+/.vs
