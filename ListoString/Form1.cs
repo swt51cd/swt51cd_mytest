@@ -106,6 +106,7 @@ namespace ListoString
         {
             //序列化DataTable
             DataTable dt = new DataTable();
+
             dt.Columns.Add("Age", Type.GetType("System.Int32"));
             dt.Columns.Add("Name", Type.GetType("System.String"));
             dt.Columns.Add("Sex", Type.GetType("System.String"));
