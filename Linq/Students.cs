@@ -37,6 +37,7 @@ namespace Linq
             {
                 Console.WriteLine(testSelect.Name);
                 Console.WriteLine($"拓展方法结果：{testSelect.NameTend()}");
+                Console.WriteLine($"重写ToString：{testSelect.ToString()}");
             }
         }
     }
@@ -46,6 +47,7 @@ namespace Linq
         public string Name { set; get; }
         public int Age { set; get; }
         public int Id { set; get; }
+
         public StudentTest()
         {
 
@@ -55,6 +57,12 @@ namespace Linq
         {
             this.Name = v1;
             this.Age = v2;
+        }
+
+
+        public override string ToString()
+        {
+            return "年龄" + Age.ToString();
         }
     }
 
