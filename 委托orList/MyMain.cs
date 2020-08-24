@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace 委托orList
 {
-    class LIst
+    class MyMain
     {
         static void Main(string[] args)
         {
-            string AtoB= "参数(测试)";
+            string AtoB = "参数(测试)";
             string age = "10";
 
             #region String.Format的改进
@@ -53,6 +53,14 @@ namespace 委托orList
             myTestClass.strAction(BtoA);
             Console.WriteLine("<Action>");
             Console.WriteLine("^^^^^^^^^^^^^^^^^");
+            #endregion
+
+
+            #region Dictionary
+            Console.WriteLine("******Dictionary******");
+            int? myint = null;
+            DictionayOperate.MyDictionary(myint);
+            Console.WriteLine("******Dictionary******");
             #endregion
 
             #region 结束
@@ -104,7 +112,7 @@ namespace 委托orList
         public static void MyTestWT()
         {
             List<string> myList = new List<string>();
-            string[] temArr = { "Ha","Hunter", "Tomtutsldfsf", "Lily", "Jay", "Jim", "Kuku","Locu" };
+            string[] temArr = { "Ha", "Hunter", "Tomtutsldfsf", "Lily", "Jay", "Jim", "Kuku", "Locu" };
             myList.AddRange(temArr);
             //string listFind = myList.Find(Tom =>  //name是变量，myList
             //{                              //中元素，自己设定
@@ -127,7 +135,7 @@ namespace 委托orList
 
         public static bool ListFind(string name)
         {
-            if (name.Length >9)
+            if (name.Length > 9)
             {
                 return true;
             }
@@ -142,14 +150,13 @@ namespace 委托orList
             {
                 Console.WriteLine(item);
             }
-           // Console.WriteLine(myist);
+            // Console.WriteLine(myist);
         }
         public static void ListtoStrArr()
         {
-            List<System.String> List = new List<System.String>();
-            List.Add("1"); List.Add("2"); List.Add("3");
-            System.String[] strArr = { };
-            strArr = List.ToArray();
+            List<System.String> list = new List<System.String>();
+            list.Add("1"); list.Add("2"); list.Add("3");
+            var strArr = list.ToArray();
             foreach (string item in strArr)
             {
                 Console.WriteLine(item);
@@ -157,6 +164,6 @@ namespace 委托orList
         }
     }
 
-    }
-    
+}
+
 
