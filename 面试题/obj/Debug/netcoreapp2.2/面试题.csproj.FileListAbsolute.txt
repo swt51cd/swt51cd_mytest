@@ -1,0 +1,11 @@
+D:\本地练习库\swt51cd_mytest\面试题\bin\Debug\netcoreapp2.2\面试题.deps.json
+D:\本地练习库\swt51cd_mytest\面试题\bin\Debug\netcoreapp2.2\面试题.runtimeconfig.json
+D:\本地练习库\swt51cd_mytest\面试题\bin\Debug\netcoreapp2.2\面试题.runtimeconfig.dev.json
+D:\本地练习库\swt51cd_mytest\面试题\bin\Debug\netcoreapp2.2\面试题.dll
+D:\本地练习库\swt51cd_mytest\面试题\bin\Debug\netcoreapp2.2\面试题.pdb
+D:\本地练习库\swt51cd_mytest\面试题\obj\Debug\netcoreapp2.2\面试题.csprojAssemblyReference.cache
+D:\本地练习库\swt51cd_mytest\面试题\obj\Debug\netcoreapp2.2\面试题.csproj.CoreCompileInputs.cache
+D:\本地练习库\swt51cd_mytest\面试题\obj\Debug\netcoreapp2.2\面试题.AssemblyInfoInputs.cache
+D:\本地练习库\swt51cd_mytest\面试题\obj\Debug\netcoreapp2.2\面试题.AssemblyInfo.cs
+D:\本地练习库\swt51cd_mytest\面试题\obj\Debug\netcoreapp2.2\面试题.dll
+D:\本地练习库\swt51cd_mytest\面试题\obj\Debug\netcoreapp2.2\面试题.pdb

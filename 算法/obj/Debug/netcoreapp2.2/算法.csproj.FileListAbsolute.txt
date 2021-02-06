@@ -1,0 +1,11 @@
+D:\本地练习库\swt51cd_mytest\算法\bin\Debug\netcoreapp2.2\算法.deps.json
+D:\本地练习库\swt51cd_mytest\算法\bin\Debug\netcoreapp2.2\算法.runtimeconfig.json
+D:\本地练习库\swt51cd_mytest\算法\bin\Debug\netcoreapp2.2\算法.runtimeconfig.dev.json
+D:\本地练习库\swt51cd_mytest\算法\bin\Debug\netcoreapp2.2\算法.dll
+D:\本地练习库\swt51cd_mytest\算法\bin\Debug\netcoreapp2.2\算法.pdb
+D:\本地练习库\swt51cd_mytest\算法\obj\Debug\netcoreapp2.2\算法.csprojAssemblyReference.cache
+D:\本地练习库\swt51cd_mytest\算法\obj\Debug\netcoreapp2.2\算法.csproj.CoreCompileInputs.cache
+D:\本地练习库\swt51cd_mytest\算法\obj\Debug\netcoreapp2.2\算法.AssemblyInfoInputs.cache
+D:\本地练习库\swt51cd_mytest\算法\obj\Debug\netcoreapp2.2\算法.AssemblyInfo.cs
+D:\本地练习库\swt51cd_mytest\算法\obj\Debug\netcoreapp2.2\算法.dll
+D:\本地练习库\swt51cd_mytest\算法\obj\Debug\netcoreapp2.2\算法.pdb

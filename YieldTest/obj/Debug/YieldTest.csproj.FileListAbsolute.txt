@@ -12,10 +12,3 @@ D:\测试\swt51cd_mytest\YieldTest\obj\Debug\YieldTest.csprojAssemblyReference.c
 D:\测试\swt51cd_mytest\YieldTest\obj\Debug\YieldTest.csproj.CoreCompileInputs.cache
 D:\测试\swt51cd_mytest\YieldTest\obj\Debug\YieldTest.exe
 D:\测试\swt51cd_mytest\YieldTest\obj\Debug\YieldTest.pdb
-D:\本地练习库\swt51cd_mytest\YieldTest\bin\Debug\YieldTest.exe.config
-D:\本地练习库\swt51cd_mytest\YieldTest\bin\Debug\YieldTest.exe
-D:\本地练习库\swt51cd_mytest\YieldTest\bin\Debug\YieldTest.pdb
-D:\本地练习库\swt51cd_mytest\YieldTest\obj\Debug\YieldTest.csproj.CoreCompileInputs.cache
-D:\本地练习库\swt51cd_mytest\YieldTest\obj\Debug\YieldTest.exe
-D:\本地练习库\swt51cd_mytest\YieldTest\obj\Debug\YieldTest.pdb
-D:\本地练习库\swt51cd_mytest\YieldTest\obj\Debug\YieldTest.csprojAssemblyReference.cache

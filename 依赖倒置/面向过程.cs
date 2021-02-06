@@ -13,38 +13,8 @@ namespace 依赖倒置
         }
     }
 
-    //MML类型的设备
-    public class DeviceMml
-    {
-        public void Login()
-        {
-            Console.WriteLine("MML设备登录");
-        }
-
-        public bool Spider()
-        {
-            Console.WriteLine("MML设备采集");
-            return true;
-        }
-    }
-
-    //TL2类型设备
-    class DeviceTl2
-    {
-        public void Login()
-        {
-            Console.WriteLine("TL2设备登录");
-        }
-
-        public bool Spider()
-        {
-            Console.WriteLine("TL2设备采集");
-            return true;
-        }
-    }
-
     //设备采集的服务
-    class DeviceService
+    public class DeviceService
     {
         private readonly DeviceMml _mml = null;
         private readonly DeviceTl2 _tl2 = null;
@@ -91,4 +61,35 @@ namespace 依赖倒置
             }
         }
     }
+
+    //MML类型的设备
+    public class DeviceMml
+    {
+        public void Login()
+        {
+            Console.WriteLine("MML设备登录");
+        }
+
+        public bool Spider()
+        {
+            Console.WriteLine("MML设备采集");
+            return true;
+        }
+    }
+
+    //TL2类型设备
+    class DeviceTl2
+    {
+        public void Login()
+        {
+            Console.WriteLine("TL2设备登录");
+        }
+
+        public bool Spider()
+        {
+            Console.WriteLine("TL2设备采集");
+            return true;
+        }
+    }
+
 }

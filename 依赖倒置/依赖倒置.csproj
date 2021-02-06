@@ -46,10 +46,21 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DIP.cs" />
+    <Compile Include="IOC_DIP.cs" />
     <Compile Include="面向过程.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IOC_DIP.IBLL\IOC_DIP.IBLL.csproj">
+      <Project>{f824a4c1-868f-4ee5-ae43-52d7a5f716b9}</Project>
+      <Name>IOC_DIP.IBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IOC_DIP.IDAL\IOC_DIP.IDAL.csproj">
+      <Project>{169beb11-a5ba-44f4-a79c-767b29097412}</Project>
+      <Name>IOC_DIP.IDAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -4,14 +4,14 @@ namespace 依赖倒置
 {
     //高层模块不应该依赖低层模块，两者都应该依赖其抽象；抽象不应该依赖细节，细节应该依赖抽象。
     //接口和抽象类不应该依赖于实现类，而实现类依赖接口或抽象类。这一点其实不用多说，很好理解，“面向接口编程”思想正是这点的最好体现。
-    class Dip
+   public class Dip
     {
       public  static void Dip_Main()
         {
             var oSpider = new DipDeviceService(new DipDeviceTl5());
             oSpider.LoginDevice();
             var bRes = oSpider.DeviceSpider();
-            Console.ReadKey();
+          
         }
     }
     //定义一个统一接口用于依赖

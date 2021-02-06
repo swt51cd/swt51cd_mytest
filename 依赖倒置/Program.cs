@@ -10,6 +10,10 @@ namespace 依赖倒置
     {
         static void Main(string[] args)
         {
+            Dip.Dip_Main();
+            Console.ReadKey();
         }
     }
+  
 }
+    

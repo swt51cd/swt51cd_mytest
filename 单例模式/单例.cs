@@ -3,25 +3,26 @@
     /// <summary>
     /// 单例模式的实现
     /// </summary>
-    public class Singleton
+    public class MySingleton
     {
         // 定义一个静态变量来保存类的实例
-        private static Singleton _uniqueInstance;
+        private static MySingleton _uniqueInstance;
 
         // 定义私有构造函数，使外界不能创建该类实例
-        private Singleton()
+        private MySingleton()
         {
         }
         /// <summary>
         /// 定义公有方法提供一个全局访问点,同时你也可以定义公有属性来提供全局访问点
+        /// 提供外部一个静态实例。
         /// </summary>
         /// <returns></returns>
-        public static Singleton GetInstance()
+        public static MySingleton GetInstance()
         {
             // 如果类的实例不存在则创建，否则直接返回
             if (_uniqueInstance == null)
             {
-                _uniqueInstance = new Singleton();
+                _uniqueInstance = new MySingleton();
             }
             return _uniqueInstance;
         }
@@ -45,8 +46,7 @@
             // lock语句运行完之后（即线程运行完之后）会对该对象"解锁"
             lock (Locker)
             {
-                // 如果类的实例不存在则创建，否则直接返回
-                if (_uniqueInstance == null)
+                if (_uniqueInstance == null)// 如果类的实例不存在则创建，否则直接返回
                 {
                     _uniqueInstance = new ThreadSingleton();
                 }
@@ -67,8 +67,7 @@
 
             lock (locker)
             {
-                // 如果类的实例不存在则创建，否则直接返回
-                if (uniqueInstance == null)
+               if (uniqueInstance == null)// 如果类的实例不存在则创建，否则直接返回
                 {
                     uniqueInstance = new ThreadSingleton();
                 }
@@ -100,18 +99,24 @@
     //public sealed  class FourthSingleton 也可以看情况使用
     public class FourthSingleton
     {
-        private static readonly FourthSingleton _instance = null;
-
-        static FourthSingleton()
-        {
-            _instance = new FourthSingleton();
-        }
+        private static readonly FourthSingleton instance = new FourthSingleton();
 
         private FourthSingleton()
         {
         }
 
-        public static FourthSingleton Instance => _instance;
+        static FourthSingleton()
+        {
+        }
+
+        public static FourthSingleton Instance => instance;
+        //public static FourthSingleton Instance
+        //{
+        //    get
+        //    {
+        //        return instance;
+        //    }
+        //}
     }
 
     /**
@@ -138,7 +143,7 @@
 静态初始化是在 .NET 中实现 Singleton 的首选方法
      **/
 
-    //------------------------------第5555555
+    //------------------------------第5555555完全懒惰的实例化
     public class FiveSingleton
     {
         private FiveSingleton() { }
@@ -154,9 +159,8 @@
         {
             static Nested()
             {
-                instance = new FiveSingleton();
             }
-            internal static FiveSingleton instance = null;
+            internal static readonly FiveSingleton instance = new FiveSingleton();
         }
     }
 
